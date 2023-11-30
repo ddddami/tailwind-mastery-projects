@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email Subscribe</title>
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body class="bg-zinc-700">
+    <article
+      class="max-w-sm flex flex-col my-auto justify-center items-center bg-zinc-800 mx-auto p-2 rounded-lg"
+    >
+      <img
+        class="h-80 object-cover w-full hover:scale-105 transition-transform"
+        src="../../assets/email-subscribe/images/image.jpg"
+        alt="A healthy diet"
+      />
+      <section class="text-white p-4">
+        <h1 class="font-serif text-center text-xl">
+          Get diet and fitness tips in your inbox.
+        </h1>
+        <p class="text-center text-sm mt-3">
+          Eat better and exercise better. Sign up for the Diet & Fitness
+          newsletter
+        </p>
+        <div class="flex flex-col items-center justify-start space-y-4 mt-4">
+          <input
+            class="w-full text-sm p-2 bg-transparent border border-zinc-700 outline-none"
+            type="text"
+            placeholder="Enter your email address"
+          />
+
+          <button
+            class="w-full p-2 bg-lime-500 text-zinc-800 rounded-md hover:opacity-75 hover:text-white transition-colors"
+          >
+            Subscribe
+          </button>
+        </div>
+      </section>
+    </article>
   </body>
   <script src="https://cdn.tailwindcss.com"></script>
 </html>
